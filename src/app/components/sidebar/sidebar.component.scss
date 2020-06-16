@@ -1,0 +1,7 @@
+li.nav-item.disabled {
+    pointer-events: none;
+    opacity: 0.5;
+}
+img.navbar-brand-img {
+    max-height: 3.5rem !important;
+}

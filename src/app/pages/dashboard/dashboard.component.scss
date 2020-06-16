@@ -1,0 +1,63 @@
+.bg-gradient-nambi {
+    background:linear-gradient(87deg, #8d8183 0, #f0c2b5 100%) !important
+}
+
+.btn{
+    height:46px;
+    width: 100%;
+}
+.my-row{
+    margin: -15px;
+    width: calc(100% + 30px);
+}
+form{
+    display: flex;
+    .row.and-more{
+        max-width: 320px;
+        margin-left: 0;    
+    }
+}
+.table .thead-light th {
+    background-color: #172b4d;
+    color: #b0b7bf;
+}
+tr>th[scope=col] {
+    font-size: 0.7rem !important;
+}
+.container.page-menu {
+    margin-bottom: 25px;
+    color: #fff;
+    width: 60%;
+
+    .col-sm.active>span,span:hover {
+        text-decoration: underline;
+        color: #172b4d;
+        cursor:pointer;
+    }
+    
+    span {
+        font-weight: 700;
+    }
+}
+@media screen and ( max-width : 1349px) {
+    form{
+        display: block;
+        .row.and-more{
+            margin-left: -15px;
+        }
+    }  
+}
+@media screen and ( max-width : 1099px) {
+    .container.page-menu{
+        width: 80%;
+    }
+}
+@media screen and ( max-width : 768px) {
+    .row.and-more{
+        max-width: none !important;
+    }  
+    .btn {
+        margin: 15px 0;
+        width: 100% ;
+    }
+}
